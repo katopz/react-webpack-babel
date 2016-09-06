@@ -1,10 +1,12 @@
+// Old bootstrap examples
 // import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Access all components from `muicss/react` module
 // import { Appbar, Button, Container } from 'muicss/react';
 
 // Access components individually for smaller build files (RECOMMENDED)
 import Button from 'muicss/lib/react/button';
-
+import 'muicss/lib/css/mui.min.css';
 import styles from './index.less';
 import React from 'react';
 

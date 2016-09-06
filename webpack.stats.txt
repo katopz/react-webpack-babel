@@ -1,22 +1,22 @@
 
-> react-webpack-babel@0.0.3 build d:\git\react-webpack-babel
-> webpack --config webpack.production.config.js --progress --profile --colors
+> react-webpack-babel@0.0.3 build:prod d:\git\react-webpack-babel
+> webpack --config webpack.production.config.js --profile
 
 
-WebpackCleanupPlugin: 2 file(s) deleted.
-Hash: [1m03c26c93e0640651c0e1[22m
-Version: webpack [1m1.13.2[22m
-Time: [1m5035[22mms
-                               [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
-             [1m[32m204dea689cfcf89378fb.js[39m[22m    41.1 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
-[1m[32m1bd8ef8e2dec89b1dfb242379982378b.css[39m[22m    93.1 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
-                          [1m[32mindex.html[39m[22m  416 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
-   [0] [1mmulti main[22m 28 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+WebpackCleanupPlugin: 0 file(s) deleted.
+Hash: aed3d2b65877e00dee61
+Version: webpack 1.13.2
+Time: 4267ms
+                               Asset       Size  Chunks             Chunk Names
+             6bf9be05013bc76dd1ad.js    51.8 kB       0  [emitted]  main
+a3af844a3649e4d5e0157d226dcc2f5f.css    38.8 kB       0  [emitted]  main
+                          index.html  416 bytes          [emitted]  
+   [0] multi main 28 bytes {0} [built]
        factory:0ms building:1ms = 1ms
-    + 94 hidden modules
-Child [1mhtml-webpack-plugin for "index.html"[22m:
+    + 99 hidden modules
+Child html-webpack-plugin for "index.html":
         + 3 hidden modules
-Child [1mextract-text-webpack-plugin[22m:
+Child extract-text-webpack-plugin:
         + 2 hidden modules
-Child [1mextract-text-webpack-plugin[22m:
+Child extract-text-webpack-plugin:
         + 2 hidden modules
