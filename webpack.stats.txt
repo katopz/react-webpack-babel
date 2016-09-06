@@ -1,18 +1,18 @@
 
-> react-webpack-babel@0.0.3 build:prod d:\git\react-webpack-babel
+> react-webpack-babel@0.0.3 build:prod /Users/katopz/git/react-webpack-babel
 > webpack --config webpack.production.config.js --profile
 
 
 WebpackCleanupPlugin: 0 file(s) deleted.
-Hash: aed3d2b65877e00dee61
+Hash: 557cd9c14adbc4da7e0e
 Version: webpack 1.13.2
-Time: 4267ms
+Time: 7901ms
                                Asset       Size  Chunks             Chunk Names
-             6bf9be05013bc76dd1ad.js    51.8 kB       0  [emitted]  main
-a3af844a3649e4d5e0157d226dcc2f5f.css    38.8 kB       0  [emitted]  main
-                          index.html  416 bytes          [emitted]  
+             893169c58b6d60594053.js    51.8 kB       0  [emitted]  main
+39a168c207454694cfa8ccfc74b29c14.css    38.8 kB       0  [emitted]  main
+                          index.html  403 bytes          [emitted]  
    [0] multi main 28 bytes {0} [built]
-       factory:0ms building:1ms = 1ms
+       factory:1ms building:2ms = 3ms
     + 99 hidden modules
 Child html-webpack-plugin for "index.html":
         + 3 hidden modules
