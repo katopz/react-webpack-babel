@@ -1,0 +1,22 @@
+
+> react-webpack-babel@0.0.3 build d:\git\react-webpack-babel
+> webpack --config webpack.production.config.js --progress --profile --colors
+
+
+WebpackCleanupPlugin: 0 file(s) deleted.
+Hash: [1mf511b056be4700610b7d[22m
+Version: webpack [1m1.13.2[22m
+Time: [1m4995[22mms
+                               [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+             [1m[32m0f6f5a5990c1a7c782f0.js[39m[22m    41.1 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mc86a5a63d451414c30f97c31705f912f.css[39m[22m    93.1 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+                          [1m[32mindex.html[39m[22m  416 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+   [0] [1mmulti main[22m 28 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+       factory:0ms building:1ms = 1ms
+    + 94 hidden modules
+Child [1mhtml-webpack-plugin for "index.html"[22m:
+        + 3 hidden modules
+Child [1mextract-text-webpack-plugin[22m:
+        + 2 hidden modules
+Child [1mextract-text-webpack-plugin[22m:
+        + 2 hidden modules
