@@ -11,10 +11,10 @@ loaders.push({
 	loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]')
 });
 
-// local scss modules
+// local less modules
 loaders.push({
-	test: /[\/\\]src[\/\\].*\.scss/,
-	loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]', 'sass')
+	test: /[\/\\]src[\/\\].*\.less/,
+	loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]', 'less')
 });
 // global css files
 loaders.push({
