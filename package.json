@@ -18,6 +18,8 @@
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.3",
     "node-sass": "^3.8.0",
+    "preact": "^6.0.0",
+    "preact-compat": "^3.0.0",
     "react": "15.3.0",
     "react-dom": "15.3.0",
     "sass-loader": "^4.0.0"

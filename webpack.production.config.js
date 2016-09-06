@@ -31,7 +31,11 @@ module.exports = {
 		filename: '[chunkhash].js'
 	},
 	resolve: {
-		extensions: ['', '.js', '.jsx']
+		extensions: ['', '.js', '.jsx'],
+		alias: {
+			'react': 'preact-compat',
+			'react-dom': 'preact-compat'
+		}
 	},
 	module: {
 		loaders
@@ -52,6 +56,7 @@ module.exports = {
 			}
 		}),
 		new webpack.optimize.OccurenceOrderPlugin(),
+		new webpack.optimize.DedupePlugin(),
 		new ExtractTextPlugin('[contenthash].css', {
 			allChunks: true
 		}),
